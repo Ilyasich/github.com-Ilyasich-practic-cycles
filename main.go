@@ -1,7 +1,6 @@
 package main
 
 import (
-
 	"fmt"
 	"practic/christmas"
 	"practic/count"
@@ -13,7 +12,6 @@ import (
 	"practic/summ"
 	"practic/syracuse"
 	"practic/turn"
-	
 )
 
 func main() {
@@ -29,4 +27,5 @@ func main() {
 	perfect.FindPerfectNumbers(10000)
 	syracuse.Syr(20)
 	syracuse.Syracuse(30)
+
 }
